@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple login form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    
+    <div class="tab">
+    
+      <h1>Welcome back</h1>
+      <div id="welcomeinput">
+        <form>
+          <input class="welcomeinput" type="email" placeholder="Email" id="email">
+          <input class="welcomeinput" type="password" placeholder="Password" id="password">
+        </form>
+      </div>
+
+      <div class="forgotdiv" id="forgotdiv">
+
+        <p>Type your email bellow to receive a new password.</p>
+
+        <form>
+          <input class="forgotinput" type="email" placeholder="Email" id="forgot">
+        </form>
+      </div>
+
+      <div id="succesfulLogin">
+        <h1>Succesfully logged in!</h1>
+        <p>Redirecting...</p>
+      </div>
+    <div id="hide">
+      <a onclick="swap()" id="retrieval">Forgot your password?</a>
+
+      <button onclick="login()" id="button">Login</button>
+    </div>
+
+      <p id="incorrect">Your email / password doesnt match our database</p>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
