@@ -1,0 +1,83 @@
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2018/08/23/07/35/new-year-background-3625405_1280.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;  
+  background-color: #f0f0f0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tab {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 550px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 20px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.1px);
+  border: rgba(128, 128, 128, 0.623);
+}
+input {
+  width: 500px;
+  height: 30px;
+  margin: 20px;
+  border-radius: 20px 20px 20px 20px;
+  border: none;
+  text-align: center;
+}
+h1 {
+  text-align: left;
+  margin-left: 20px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 5vh;
+}
+button {
+  width: 70px;
+  height: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 20px 20px 20px 20px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  border: none;
+}
+button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+a {
+  margin: 20px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+#forgotdiv {
+  display: none;
+}
+#welcomeinput {
+  display: block;
+}
+
+p {
+  text-align: center;
+}
+#succesfulLogin {
+  display: none;
+  text-align: center;
+}
+#incorrect {
+  display: none;
+}
+#hide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
